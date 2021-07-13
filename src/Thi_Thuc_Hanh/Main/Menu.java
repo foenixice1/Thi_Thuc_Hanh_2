@@ -9,7 +9,6 @@ public class Menu {
     static Scanner sc = new Scanner(System.in);
 
     public static void menu() {
-        IOOFile.readFile();
         while (true) {
             System.out.println("|====================================|");
             System.out.println("| ---CHƯƠNG TRÌNH QUẢN LÝ DANH BẠ--- |");
