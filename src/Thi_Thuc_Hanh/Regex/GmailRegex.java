@@ -1,4 +1,4 @@
-package Thi_Thuc_Hanh;
+package Thi_Thuc_Hanh.Regex;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

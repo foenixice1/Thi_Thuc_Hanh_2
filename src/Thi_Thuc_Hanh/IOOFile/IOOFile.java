@@ -1,4 +1,7 @@
-package Thi_Thuc_Hanh;
+package Thi_Thuc_Hanh.IOOFile;
+
+import Thi_Thuc_Hanh.QuanLyDB.DanhBa;
+import Thi_Thuc_Hanh.QuanLyDB.ManageDanhBa;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,7 +12,7 @@ import java.util.ArrayList;
 public class IOOFile {
     public static void writeFile() {
         try {
-            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("Thi_Thuc_Hanh.DanhBa.csv"));
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("Thi_Thuc_Hanh.QuanLyDB.DanhBa.csv"));
             String something = "SDT,NhomDB,HoTen,GioiTinh,DiaChi,NgaySinh,Gmail";
             bufferedWriter.write(something);
             for (DanhBa danhBa : ManageDanhBa.danhBas) {
@@ -25,7 +28,7 @@ public class IOOFile {
     public static ArrayList<DanhBa> readFile() {
         ArrayList<DanhBa> list = new ArrayList<>();
         try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader("Thi_Thuc_Hanh.DanhBa.csv"));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("Thi_Thuc_Hanh.QuanLyDB.DanhBa.csv"));
             String line = bufferedReader.readLine();
             while ((line = bufferedReader.readLine()) != null) {
                 String[] arr = line.split(",");

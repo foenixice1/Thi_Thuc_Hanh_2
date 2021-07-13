@@ -1,6 +1,7 @@
-package Thi_Thuc_Hanh;
+package Thi_Thuc_Hanh.QuanLyDB;
 
-import Regex.*;
+import Thi_Thuc_Hanh.IOOFile.IOOFile;
+import Thi_Thuc_Hanh.Regex.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;

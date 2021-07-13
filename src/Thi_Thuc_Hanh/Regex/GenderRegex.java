@@ -1,12 +1,13 @@
-package Thi_Thuc_Hanh;
+package Thi_Thuc_Hanh.Regex;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class BirthdayRegex {
-    public static final String birthdayRegex = "^\\d{4}-\\d{2}-\\d{2}$";
+public class GenderRegex {
+    public static final String genderRegex = "^[Nn][Aa][Mm]+|[Nn][Uu]$";
+
     public static boolean validate(String regex){
-        Pattern pattern = Pattern.compile(birthdayRegex);
+        Pattern pattern = Pattern.compile(genderRegex);
         Matcher matcher = pattern.matcher(regex);
         return matcher.matches();
     }

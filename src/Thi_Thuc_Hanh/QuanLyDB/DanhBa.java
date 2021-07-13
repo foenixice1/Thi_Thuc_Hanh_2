@@ -1,4 +1,4 @@
-package Thi_Thuc_Hanh;
+package Thi_Thuc_Hanh.QuanLyDB;
 
 public class DanhBa {
     private String soDT;

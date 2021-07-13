@@ -1,4 +1,7 @@
-package Thi_Thuc_Hanh;
+package Thi_Thuc_Hanh.Main;
+
+import Thi_Thuc_Hanh.IOOFile.IOOFile;
+import Thi_Thuc_Hanh.QuanLyDB.ManageDanhBa;
 
 import java.util.Scanner;
 
