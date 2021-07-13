@@ -201,7 +201,7 @@ public class ManageDanhBa {
         boolean check = false;
         for (DanhBa db : danhBas) {
             if (db.getSoDT().equals(sdt)) {
-                System.out.println(sdt);
+                System.out.println(db);
                 check = true;
                 break;
             }
